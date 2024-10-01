@@ -1,4 +1,4 @@
-# Project_4
+# Car-Price-Prediction
 Project Proposal: Identifying Factors Influencing Car Price
 
 1. Data and Field of Interest:
