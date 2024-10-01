@@ -10,10 +10,10 @@ Project Proposal: Identifying Factors Influencing Car Price
 
     Primary Question: What are the most significant factors that influence car prices?
     Supporting Questions:
-        - ** How do technical specifications like engine size, horsepower, and fuel type affect car prices?
-        - ** Are there certain car brands that are priced higher, even when accounting for technical specifications?
-        - ** How does fuel efficiency (city and highway MPG) impact the price of a car?
-        - ** Is there a significant difference in price between different car body types (e.g., sedan, hatchback, convertible)?
+        ** How do technical specifications like engine size, horsepower, and fuel type affect car prices?
+        ** Are there certain car brands that are priced higher, even when accounting for technical specifications?
+        ** How does fuel efficiency (city and highway MPG) impact the price of a car?
+        ** Is there a significant difference in price between different car body types (e.g., sedan, hatchback, convertible)?
 
 3. Data Source:
 
