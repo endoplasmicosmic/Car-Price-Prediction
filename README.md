@@ -63,7 +63,7 @@ Project Proposal: Identifying Factors Influencing Car Price
 - Fuel type (gas or diesel) has a low influence on price, suggesting that performance and specifications, rather than fuel type, drive car prices.
 
 ### Are there certain car brands that are priced higher even when accounting for technical specifications?
-![Car Brands Influence on Price](images/brand_importancce.png)
+![Car Brands Influence on Price](images/brand_importance.png)
 - **BMW** and **Audi** have the highest influence on price, which aligns with their reputations for luxury and high performance.
 - Other brands show relatively minimal influence, indicating that brand alone outside of luxury categories plays a limited role in price variation.
 
