@@ -89,7 +89,3 @@ Project Proposal: Identifying Factors Influencing Car Price
 
 ---
 
-## Visualizations
-
-### Correlation Matrix
-![Correlation Matrix](images/correlation_matrix.png)
