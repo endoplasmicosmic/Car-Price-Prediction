@@ -52,31 +52,48 @@ Project Proposal: Identifying Factors Influencing Car Price
 
 ### What are the most significant factors that influence car prices?
 ![Top 10 Features Influencing Car Price](images/top_10_features_importance.png)
-- **Engine Size** and **Curb Weight** are the most influential features in predicting car prices.
-- Larger engine sizes are closely associated with higher car prices.
-- Heavier cars tend to be priced higher, possibly due to their larger size or additional features.
-- Other features like **Highway MPG** and **Horsepower** contribute less but are still significant factors.
+- This bar chart highlights the top 10 most influential features in predicting car prices according to their importance values. The largest contributing features are engine size and curb weight, with engine size having the highest influence on car price. Other features like horsepower, highway mpg, and car width contribute less but are still significant.
+
+#### Analysis:
+- **Engine size** being the top feature indicates that larger engine sizes are closely associated with higher car prices.
+- **Curb weight** also plays a significant role, suggesting that heavier cars tend to be priced higher, possibly due to their larger size or additional features.
+- Features like **highway mpg** and **horsepower** have less influence, but they are still contributing factors, which supports the idea that fuel efficiency and power play some role in price variation.
+- This visualization helps us understand which features to focus on when optimizing the model or refining feature selection for price prediction.
 
 ### How do technical specifications like engine size, horsepower, and fuel type affect car prices?
 ![Technical Specifications Influence on Price](images/technical_specifications_importance.png)
-- **Engine Size** dominates the impact, followed by **Horsepower**.
-- Fuel type (gas or diesel) has a low influence on price, suggesting that performance and specifications, rather than fuel type, drive car prices.
+- This chart breaks down how specific technical specifications—engine size, horsepower, and fuel types (gas or diesel)—influence car prices. Like the first chart, engine size dominates the impact, followed by horsepower.
+
+#### Analysis:
+- **Engine size** again emerges as the strongest predictor of car prices, reinforcing its importance.
+- The low influence of **fuel types** suggests that whether a car uses gas or diesel is not a significant factor in determining its price. This might indicate that the price is more affected by the car's performance and specifications rather than its fuel type.
+- **Horsepower** plays a smaller role, but its presence indicates that more powerful engines slightly contribute to higher prices.
 
 ### Are there certain car brands that are priced higher even when accounting for technical specifications?
 ![Car Brands Influence on Price](images/brand_importance.png)
-- **BMW** and **Audi** have the highest influence on price, which aligns with their reputations for luxury and high performance.
-- Other brands show relatively minimal influence, indicating that brand alone outside of luxury categories plays a limited role in price variation.
+- This chart visualizes the impact of different car brands on price, with **BMW** having the highest influence, followed by **Audi**. Other brands have minimal impact in comparison.
+
+#### Analysis:
+- **BMW** and **Audi** standing out suggests that cars from these premium brands are associated with higher prices. This is consistent with these brands' reputations for luxury and high performance.
+- Most other brands show relatively minimal influence, which could indicate that brand alone, outside of luxury categories, has a limited role in determining car prices compared to other technical specifications.
+- This supports the analysis that high-end brands like **BMW** and **Audi** can serve as important features for premium price prediction, but many other brands may not differentiate car prices as significantly.
 
 ### How does fuel efficiency (city and highway MPG) impact the price of a car?
 ![Fuel Efficiency Influence on Price](images/fuel_efficiency_importance.png)
-- **Highway MPG** has a greater impact than **City MPG**, suggesting that cars that are more fuel-efficient on highways might be more valued.
-- Fuel efficiency contributes to pricing but is relatively small compared to more direct performance indicators like engine size and curb weight.
+- This chart focuses on how fuel efficiency, measured by city mpg and highway mpg, influences car prices. **Highway mpg** has a greater impact than **city mpg**, though neither is a dominant feature.
+
+#### Analysis:
+- The higher influence of **highway miles per gallon** over city miles per gallon suggests that for price prediction, cars that are more fuel-efficient on highways might be more valued.
+- While fuel efficiency does contribute to pricing, it is relatively small compared to more direct performance indicators like engine size and curb weight. This indicates that while buyers consider fuel efficiency, other specifications hold more weight in determining a car's price.
 
 ### Is there a significant difference in price between different car body types (e.g., sedan, hatchback, convertible)?
 ![Car Body Types Influence on Price](images/carbody_importance.png)
-- **Convertibles** tend to have the highest price influence, which aligns with their exclusivity and design.
-- Other body types (sedans, hatchbacks, wagons) show similar impacts, suggesting that body type alone is less influential in determining price compared to technical features.
+- This chart shows how different car body types influence car prices. All body types (wagon, convertible, sedan, etc.) have relatively small impacts, with **convertible** showing the highest influence.
 
+#### Analysis:
+- The slight dominance of **convertibles** aligns with the perception of convertibles being more expensive due to their design and exclusivity.
+- Other body types, such as sedans, hatchbacks, and wagons, show relatively similar influences, indicating that body type alone may not heavily drive price differences except for convertibles.
+- This supports the idea that body type, although a factor, might be less influential compared to performance or technical features when predicting car prices.
 ---
 
 ## Conclusions
