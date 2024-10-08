@@ -111,3 +111,19 @@ Project Proposal: Identifying Factors Influencing Car Price
 - Certain car brands, particularly luxury brands like **BMW** and **Audi**, showed greater influence on predicting car prices even after accounting for technical specifications.
 - **Fuel Efficiency** showed a more complex relationship with price. While cars with higher fuel efficiency are generally more affordable, premium electric and hybrid cars combine high efficiency with higher prices due to advanced technology.
 - In terms of **Body Type**, convertibles and hatchbacks tended to have greater influence on price compared to sedans, hardtops and wagons, likely due to their design, functionality, and market positioning.
+
+---
+
+## Tableau Visualization
+
+For an in-depth visualization of the car price data analysis, please refer to the Tableau graphic:
+[Car Price Prediction Tableau Visualization](https://public.tableau.com/app/profile/sanem.gingery/viz/Car_Price_Tableau/FINAL?publish=yes)
+
+## Resources
+
+Here are the resources used in this project:
+
+- [RandomForestRegressor Documentation](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+- [GridSearchCV Documentation](https://scikit-learn.org/dev/modules/grid_search.html#grid-search)
+- [Correlation Matrix Plotting](https://stackoverflow.com/questions/29432629/plot-correlation-matrix-using-pandas)
+- [Feature Importance in Random Forests](https://www.geeksforgeeks.org/feature-importance-with-random-forests/)
