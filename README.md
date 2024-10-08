@@ -107,8 +107,7 @@ Project Proposal: Identifying Factors Influencing Car Price
 
 ## Conclusions
 
-- Based on the feature importance from the second Random Forest model (model_2), the most significant factors influencing car prices were **Engine Size**, **Horsepower**, and **Car Brand**.
-- **Engine Size** and **Horsepower** showed a strong positive correlation with car prices. Cars with larger engines and more horsepower tend to be priced higher.
-- Certain car brands, particularly luxury brands like **BMW** and **Audi**, were consistently priced higher even after accounting for technical specifications.
+- Based on the feature importance from the second Random Forest model (model_2), the most significant factors influencing car prices were **Engine Size**, **Curb Weight**, **Highway MPG** and **Horsepower**.
+- Certain car brands, particularly luxury brands like **BMW** and **Audi**, showed greater influence on predicting car prices even after accounting for technical specifications.
 - **Fuel Efficiency** showed a more complex relationship with price. While cars with higher fuel efficiency are generally more affordable, premium electric and hybrid cars combine high efficiency with higher prices due to advanced technology.
-- **Body Type** had a noticeable effect on car price. Convertibles and SUVs tended to be priced higher compared to sedans and hatchbacks, likely due to their design, functionality, and market positioning.
+- In terms of **Body Type**, convertibles and hatchbacks tended to have greater influence on price compared to sedans, hardtops and wagons, likely due to their design, functionality, and market positioning.
