@@ -100,8 +100,8 @@ Project Proposal: Identifying Factors Influencing Car Price
 ![Correlation Matrix](images/correlation_matrix_heatmap.png)
 
 - Six of our top ten most important features show strong positive scorrelation with eachother as they all describe the size of the car.
-- While it may seem obvious that car width and car height have a strong positive correlation, it's less obvious that horsepower and curbweight would have this correlation.
-- Unsurpsingly, the features related to fuel efficiency are heavily correlated with eachother and inversely related to all other factors. This tells us that larger cars have worse fuel efficiency and that BMWs tend to be less efficient than their competitors.
+- While it may seem obvious that car width and car height have a strong positive correlation, it's less obvious that horsepower and curb weight would have this correlation.
+- Unsurprisingly, the features related to fuel efficiency are heavily correlated with each other and inversely related to all other factors. This tells us that larger cars have worse fuel efficiency and that BMWs tend to be less efficient than their competitors.
 - The final two features are brand_bmw and peakrpm. Brand_bmw seems to have little correlation to other features, but the relationship it does have shows that BMWs tend to be larger and less fuel efficient. A similar correlation that includes all of the brands might help people decide which vehicle to purchase. Peakrpm shows negative correlation with every feature aside from horsepower, which makes sense because the bigger the car the lower the rpm.
 ---
 
