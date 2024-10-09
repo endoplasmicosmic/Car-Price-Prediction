@@ -61,9 +61,9 @@ There is a negative correlation between highway mileage and car price, meaning c
 - Missing values and data inconsistencies, if any, were handled during preprocessing.
 
 ### Exploratory Data Analysis:
-- Correlation matrices were generated to identify relationships between variables.
-- Charts were used to visualiize the importance of car features in predicting car prices.
 - Important features like engine size, horsepower, fuel efficiency, and brand were analyzed for their correlation with car price.
+- Charts were used to visualize the importance of car features in predicting car prices.
+- A correlation matrix were generated to identify relationships between the top ten most influential features.
 
 ### Modeling:
 - The dataset was split into training and testing sets using `train_test_split`.
@@ -114,7 +114,7 @@ There is a negative correlation between highway mileage and car price, meaning c
 - This chart focuses on how fuel efficiency, measured by city mpg and highway mpg, influences car prices. **Highway mpg** has a greater impact than **city mpg**, though neither is a dominant feature.
 
 #### Analysis:
-- The higher influence of **highway miles per gallon** over city miles per gallon suggests that for price prediction, cars that are more fuel-efficient on highways might be more valued.
+- The higher influence of **highway miles per gallon** over **city miles per gallon** suggests that for price prediction, cars that are more fuel-efficient on highways might be more valued.
 - While fuel efficiency does contribute to pricing, it is relatively small compared to more direct performance indicators like engine size and curb weight. This indicates that while buyers consider fuel efficiency, other specifications hold more weight in determining a car's price.
 
 ### Is there a significant difference in price between different car body types (e.g., sedan, hatchback, convertible)?
