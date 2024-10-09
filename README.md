@@ -19,6 +19,35 @@ Project Proposal: Identifying Factors Influencing Car Price
 3. Data Source:
 
     Dataset: The dataset is sourced from the Car Price Assignment dataset (CarPrice_Assignment.csv), which is widely available on various data platforms like Kaggle. This dataset contains 205 observations of cars and their associated features, which will be used to develop machine learning models for predicting car prices.
+
+---
+
+## Analysis Before Prediction
+
+To better understand the data and uncover key insights surrounding car price distribution by brand, fuel type, body type, and mileage, we analyzed the data visually before crafting our predictive model.
+
+### Average Price Distribution Across Car Brands
+![Average Price Distribution Across Car Brands](images/Average_Price_Distribution_Across_Car_Brands.png)
+
+This chart shows that different car brands target different market segments, with luxury brands having much higher prices than others. For example, Jaguar, Buick, and Porsche have the highest average prices, while Chevrolet has the lowest.
+
+### Comparative Analysis of Diesel vs. Gas Car Prices by Brand
+![Comparative Analysis of Diesel vs. Gas Car Prices by Brand](images/Comparative_Analysis_of_Diesel_vs_Gas_Car_Prices_by_Brand.png)
+
+Diesel cars tend to be more expensive for some brands, like Buick and Volvo, while gas cars, especially from brands like Jaguar and Porsche, dominate the high-end market.
+
+### How Car Body Types Influence Average Vehicle Price
+![How Car Body Types Influence Average Vehicle Price](images/How_Car_Body_Types_Influence_Average_Vehicle_Price.png)
+
+Convertible and Hardtop cars are positioned in the luxury segment, with higher average prices, while Hatchback cars tend to be more economical.
+
+### Relationship Between Highway Mileage and Average Car Price
+![Relationship Between Highway Mileage and Average Car Price](images/Relationship_Between_Highway_Mileage_and_Average_Car_Price.png)
+
+There is a negative correlation between highway mileage and car price, meaning cars with better fuel efficiency (higher mileage) tend to be less expensive.
+
+---
+
 ####
 ####
 # Car Price Prediction Analysis
