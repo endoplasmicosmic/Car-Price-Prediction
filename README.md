@@ -71,9 +71,10 @@ There is a negative correlation between highway mileage and car price, meaning c
 - A Random Forest Regressor model was built to predict car prices.
 - `GridSearchCV` was used for hyperparameter tuning to optimize the model.
 
-### Evaluation:
+### Evaluation and Optimization:
 - The model's performance was evaluated using the R² score to understand how well the model explained the variance in car prices.
 - The n_estimators factor (n_estimators=1000) in the RandomForestRegressor had the biggest impact on quality of performance by the model.
+- We ended up going with our second model (after one round of optimization) as the best and most efficient (i.e. shortest processing time) predictor of car prices with an R² of .9590 (above the .80 benchmark).
 - Please see code for further insight into optimization.
 
 ---
